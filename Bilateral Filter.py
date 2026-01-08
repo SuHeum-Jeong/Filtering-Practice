@@ -24,8 +24,6 @@ def main():
 
 def BilateralFilter_JHAn(image: np.ndarray) -> np.ndarray:
     # to do
-    print("BilateralFilter_JHAn is not implemented yet.")
-    print(image.shape)
     out=np.zeros(image.shape)
     img=image.astype(np.float32)
     
@@ -61,7 +59,6 @@ def BilateralFilter_JHAn(image: np.ndarray) -> np.ndarray:
             
             pixel_value=img[i,j]
             dx=0
-            
             result=0
             div=0
             s=0
